@@ -8,4 +8,9 @@ describe('<Header />', () => {
         shallow(<Header />);
     });
 
+    it('showing the state correctly rendering', () => {
+        const wrapper = shallow(<Header />);
+        expect(wrapper.state('showInfoModal')).toEqual(false)
+    })
+
 })

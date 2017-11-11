@@ -8,9 +8,5 @@ describe('<GuessForm />', () => {
         shallow(<GuessForm />);
     });
 
-    it('renders one <GuessForm component', () => {
-        const wrapper = shallow(<GuessForm />);
-        expect(wrapper.find(GuessForm))
-    })
-
+    
 })
